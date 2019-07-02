@@ -172,9 +172,9 @@ console.log('arrow', joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//  this is undefined.
+//  This is the Student Object
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//  this is an empty object
+//  this is the Window Object
 // 3. Explain why "this" is different when an arrow function is used.
 //  because arrow functions are always anonymous you cannont bind a value to it. When 'this' is invoked it is bound to the calling object.
 //
